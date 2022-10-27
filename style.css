@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.YamatoWeb{
+    width: 1200px;
+    /* position: relative; */
+}
+/* board1 */
+.frontPage{
+    background-image: url("./images/asset\ 4.jpeg");
+    height: 900px;
+    background-size: cover;
+    background-position: bottom;
+}
+.navbar{
+    width: 1200px;
+    display: flex;
+    border:1px solid #fff;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+.yamatologoMainTxt{
+    color: #fff;
+    font-size: 20px;
+}
+.yamatologoSubTxt{
+    color: #fff;
+    font-size: 15px;
+}
+.yamatologoPicArea{
+    border-right: 1px solid #fff;
+    display: flex;
+    padding: 20px 20px;
+}
+.yamatologo{
+    margin-right: 10px;
+}
+.yamatoInfoList{
+    display: flex;
+    align-items: center;
+}
+.yamatoInfo{
+    background-color: rgba(48, 43, 43, 0);
+}
+.yamatoInfoInside{
+    display: block;
+    width: 115px;
+    height: 50px;
+    /* padding: 20px 0; */
+    margin-left: 20px;
+}
+.yamatoMainInfo{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.yamatoSubInfo{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.graduateArea{
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #CF1126;
+    color: #fff;
+    padding: 20px 0;
+}
+.halfArea{
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #9A0C1B;
+    color: #fff;
+    padding: 20px 0;
+}
+.graduateTxt, .halfTxt{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 7px 20px;
+}
+.graduateEntry, .halfEntry, .fa-arrow-right{
+    margin-top: 12px;
+}
+.frontPageTxtArea{
+    margin-top: 500px;
+}
+.protect{
+    display: flex;
+    align-items: baseline;
+    margin-left: 3rem;
+}
+.protectMainTxt{
+    font-size: 15px;
+    color: #e45364;
+}
+.protectSubTxt{
+    font-weight: bold;
+    color: #fff;
+}
+.property{
+    font-size: 50px;
+    color: #fff;
+}
+.mission{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 3rem;
+    color: #fff;
+}
+/* board2 */
+.casesArea{
+    position: relative;
+    height: 1600px;
+    background-color: #201952;
+    color: #fff;
+}
+.casesTxt{
+    position: sticky;
+    top: 50px;
+    padding: 0 0 100px 20px;
+}
+.construction{
+    display: flex;
+    align-items: center;
+    color: #CF1126;
+    font-size: 18px;
+    padding: 70px 0 80px 0;
+}
+.construction::after{
+    margin-left: 40px;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #a29fb6;
+}
+.ourCase{
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.casesMainTxt{
+    width: 360px;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+}
+.casesSubTxt{
+    font-size: 30px;
+}
+.caseListArea{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    height: 1600px;
+    margin-left: 480px;
+}
+.caseFirstList{
+    border-left:1px solid #aaa ;
+    border-right:1px solid #aaa ;
+}
+.caseFirstList .caseItem{
+    margin: 400px 0;
+}
+.caseSecList{
+    border-right:1px solid #aaa ;
+}
+.caseSecList .caseItem{
+    margin-top: 200px;
+}
+.templeArea, .skyTreeArea, .parkArea , .artCenterArea{
+    margin: 0 10px;
+    width: 330px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.caseOrder{
+    font-size: 25px;
+    color: #CF1126;
+}
+.theme{
+    font-weight: bold;
+    font-size: 15px;
+}
+.casesIntroducePic{
+    width: 350px;
+}
+/* board3 */
+.jobArea{
+    display: flex;
+    margin: 100px 0;
+}
+.jobTxtArea{
+    margin: 0 60px;
+}
+.departmentIntroduce{
+    display: flex;
+    align-items: center;
+    color: #CF1126;
+    font-size: 18px;
+    margin: 70px 0 80px 0;
+}
+.departmentIntroduce::after{
+    margin-left: 40px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #a29fb6;
+}
+.ourJob{
+    font-size: 70px;
+    font-weight: bold;
+    color: #201952;
+}
+.departmentList{
+    display: flex;
+}
+.departmentItem{
+    position: relative;
+}
+.departmentPic{
+    width: 210px;
+    height: 400px;
+    object-fit:cover;
+    overflow: hidden
+}
+.departmentInTxt{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+}
+.departmentMainTxt{
+    margin: 0 10px;
+    color: #fff;
+    writing-mode:vertical-lr;
+}
+.departmentSubTxt{
+    font-size: 35px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #fff;
+}
+/* board4 */
+.staffArea{
+    position: relative;
+}
+.staffTxtArea{
+    width: 550px;
+    height: 700px;
+    background-color: #201952;
+}
+.staff{
+    margin-left: 65px;
+}
+.staffTitle{
+    display: flex;
+    align-items: center;
+    color: #CF1126;
+    font-size: 18px;
+    padding: 80px 0 40px 0;
+}
+.staffTitle::after{
+    margin-left: 40px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #a29fb6;
+}
+.ourStaff span{
+    display: block;
+    font-size: 70px;
+    color: #fff;
+}
+.staffDetail{
+    padding: 70px 0 100px 150px;
+}
+.profession{
+    width: 80px;
+    color: #28D6B2;
+    border: 1px solid #28D6B2;
+    padding: 5px;
+}
+.peopleName{
+    color: #fff;
+    margin: 40px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.years, .belong, .study{
+    display: block;
+    color: #fff;
+}
+.peopleInside{
+    display: flex;
+    position: absolute;
+    margin-top: 130px;
+    top: 0;
+}
+.msPic{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+.nextPicArea{
+    display: flex;
+}
+.mmPic, .ktPic{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.mmPic{
+    margin: 0 30px;
+}
+.peopleArea{
+    margin-left: 400px;
+}
+.peopleBtns{
+    display: flex;
+    margin: 40px;
+}
+.previous, .next{
+    width: 90px;
+    height: 90px;
+    background-color: #CF1126;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.previous{
+    margin-right: 40px;
+}
+/* board5 */
+.qaArea{
+    height: 2108px;
+    position: relative;
+    margin: 100px 0;
+}
+.qaTxtArea{
+    width: 380px;
+    position: sticky;
+    margin-left: 20px; 
+    top: 0;
+}
+.questions{
+    font-size: 18px;
+    color: #CF1126;
+    display: flex;
+    align-items: center;
+}
+.questions::after{
+    margin-left: 40px;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #a29fb6;
+}
+.faq{
+    color: #201952;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 50px 0 250px 0;
+}
+.qaList{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.qaItem{
+    width: 348px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #DCDCDC;
+}
+.qaItemInside{
+    padding: 40px 20px;
+}
+.qaOrder{
+    font-size: 28px;
+    color: #CF1126;
+}
+.qaMainTxt{
+    color: #201952;
+    padding: 10px 0;
+}
+.qaSubTxt{
+    width: 300px;
+}
+.firstIdea, .secIdea, .thirdIdea, .foreign, .country{
+    display: block;
+}
+/* board6 */
+.professionArea{
+    position: relative;
+}
+.professionFirstrow{
+    display: flex;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.professionSecrow{
+    display: flex;
+    overflow: hidden;
+}
+.professionFirstPic{
+    width: 350px;
+    margin: 0 10px;
+    margin-bottom: 50px;
+}
+.professionSecPic{
+    width: 350px;
+    margin: 0 10px;
+    margin-top: 50px;
+}
+.professionTxtArea{
+    width: 1200px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    top: 150px;
+}
+.rotection{
+    width: 1200px;
+    height: 100px;
+    font-size: 90px;
+    font-weight: bold;
+    color: #201952;
+}
+.technology{
+    font-size: 90px;
+    font-weight: bold;
+    color: #201952;
+    margin-left: 100px;
+}
+/* board7 */
+.endArea{
+    background-color: #201952;
+}
+.moreInfo{
+    display: flex;
+}
+.logobackArea{
+    position: relative;
+    width: 450px;
+    height:400px;
+    background-image: url("images/footerLogo.png");
+    object-fit: cover;
+}
+.endlogo{
+    position: absolute;
+    left: 160px;
+    top: 150px;
+}
+.business{
+    width: 800px;
+    margin: auto 0;
+}
+.intelligence{
+    font-size: 15px;
+    font-weight: bold;
+    color: #8A87A4;
+    margin: 0 0 5px 80px;
+}
+.infoList{
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    line-height: 3.5;
+}
+.infoItem{
+    width: 225px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.infoItem > a{
+    color: #fff;
+}
+.rightInfo{
+    border-top: 1px solid #413B6C;
+    display: flex;
+    justify-content: space-between;
+}
+.infoArea{
+    padding: 20px 0;
+}
+.infoArea > a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 40px;
+}
+.copyright{
+    margin-right: 40px;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #8A87A4;
+}
