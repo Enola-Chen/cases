@@ -1,0 +1,797 @@
+/* board1 */
+.oatsPage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.oatsNavArea{
+    background-color: #EC6D4E;
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guide{
+    width: 530px;
+    padding-left: 40px;
+}
+.guide  a, .func  a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.magazine > a{
+    color: #F6B7A7;
+}
+.oatsLogoArea{
+    padding-right: 350px;
+}
+.func{
+    display: flex;  
+    align-items: center;      
+    padding-right: 40px;    
+}
+.shopcart{
+    position: relative;
+}
+.shopcartBackground{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopcartBackground  img{
+    width: 30px;
+    height: 30px;
+}
+.itemsCount{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+    right: 0px;
+    border-radius: 50%;
+    background-color: #B85037;
+    display: flex;
+    justify-content: center;
+}
+.oatInfoPage{
+    display: flex;
+    position: relative;
+    background-color: #EC6D4E;
+    height: 600px;
+    width: 1200px;
+}
+.mainInfoArea {
+    background: #EC6D4E;
+    position: relative;
+    width: 280px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vegan {
+    color: #fff;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+}
+.oatsPicArea{
+    display: flex;
+}
+.pileAreaPic{
+    width: 450px;
+    height: 600px;
+    margin-right: 20px;
+}
+.dipCookiePic{
+    width: 450px;
+    height: 600px;
+}
+.logoArea{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+.oatsLogoPic{
+    width: 400px;
+}
+/* board2 */
+.secPage{
+    background-color: #EC6D4E;
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.snackBackground{
+    width: 1100px;
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./img/static.index__about.webp");
+}
+.aboutTxt{
+    text-align: center;
+    color: #EC6D4E;
+    font-size: 12px;
+}
+.benefits{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    z-index: 1;
+}
+.benefitArea{
+    width: 500px;
+    height: 650px;
+    background-color: #fff;
+    padding: 50px 0 30px 50px;
+    border-radius: 5px;
+}
+.benefitTitle{
+    color: #EC6D4E;
+    width: 240px;
+    font-size: 24px;
+    font-weight:bold;
+    padding: 30px 0;
+}
+.beautyTxt, .guiltTxt, .fiberTxt, .benefitTxt{
+    width: 300px;
+    padding: 0 0 30px 0;
+    color: #EC6D4E;
+}
+.benefitArea  p{
+    width: 350px;
+    line-height: 1.5;
+    color: #EC6D4E;
+}
+.sampleArea{
+    width: 1200px;
+    height:600px;
+    background-image: url("./img/static.index__eyecatch.webp");   
+    background-attachment: fixed;
+    position: relative;
+}
+.sampleTxt{
+    width: 1200px;
+    overflow: hidden;
+    position: absolute;
+    font-size: 80px;
+    font-weight:500;
+    color: #fff;
+    white-space: nowrap; 
+    z-index: 0;
+    bottom: -80px;
+    /* error */
+    /* bottom: 0px; */
+}
+/* board3 */
+.prosPage{
+    width: 1200px;
+    height: 1000px;
+    background-color: #EC6D4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureTxt{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.prosArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstInfoTxtArea, .secInfoTxtArea, .thirdInfoTxtArea{
+    padding: 30px;
+}
+.firstInfoTxtArea > h3, .secInfoTxtArea > h3, .thirdInfoTxtArea > h3{
+    width: 260px;
+    color: #EC6D4E;
+    margin: 0 auto;
+    text-align: center;
+}
+.firstInfo, .secInfo, .thirdInfo{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.firstInfoArea, .secInfoArea, .thirdInfoArea{
+    width: 330px;
+    height: 650px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+.secInfoArea{
+    margin: 0 5px;
+}
+.firstInfoNum, .secInfoNum, .thirdInfoNum{
+    position: absolute;
+    color: #fff;
+    font-size: 70px;
+    top: -110px;
+    left: 20px;
+}
+.firstPic, .secPic, .thirdPic{
+    width: 330px;
+    border-radius: 5px;
+}
+.firstNote, .thirdNote{
+    font-size: 12px;
+}
+/* board4 */
+.storyBg{
+    width: 1200px;
+    height: 2130px;
+    position: relative;
+    overflow: hidden;
+}
+.storyInfo{
+    width: 1200px;
+    height: 680px;
+    position: relative;
+
+}
+.storyInfo::before{
+    content: "";
+    width: 1200px;
+    height: 700px;
+    background-image: url("./img/story-main2.webp");
+    background-size: contain;
+    filter: blur(30px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.storyTag{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.moreStory{
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    color: #EC6D4E;
+    border-radius: 25px;
+}
+.moreStory:hover{
+    width: 246px;
+    height: 46px;
+    background-color: #EC6D4E;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.storyTxtArea{
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.storyTitle{
+    width: 300px;
+    font-size: 30px;
+    color: #fff;
+}
+.storyTxt{
+    width: 350px;
+    font-size: 12px;
+    line-height: 2;
+    color: #fff;
+}
+.moreStory{
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    color: #EC6D4E;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreStory:hover{
+    background-color: #EC6D4E;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.promiseTxt{
+    width: 1200px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -80px;
+    font-size: 80px;
+    font-weight:600;
+    color: #fff;
+    white-space: nowrap; 
+}
+.storyArea{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.storyPic{
+    border-radius: 5px;
+    width: 500px;
+}
+.productPage{
+    background-color: #EC6D4E;
+}
+.productTag{
+    color:#fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 250px;
+}
+.productArea{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productPicArea{
+    position: relative;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.productPicArea > img{
+    border-radius: 5px;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+}
+.firstProductPic{
+    transform: rotate(25deg);
+    z-index: 1;
+}
+.secProductPic{
+
+    transform: rotate(-25deg);
+    z-index: 2;
+}
+.thirdProductPic{
+    z-index: 3;
+}
+.productTxtArea{
+    width: 250px;
+}
+.productNameArea{
+    display: flex;
+    align-items: center;
+}
+.beandregs, .glutenFree, .wholeOat{
+    color: #fff;
+    font-weight:bold;
+}
+.productName{
+    color: #fff;
+    font-size: 40px;
+}
+.wholeOat{
+    margin-left: 10px;
+}
+.productDetail > p{
+    color: #fff;
+}
+.productDetail{
+    display: flex;
+    align-items:baseline;
+}
+.productPrice{
+    font-size: 25px;
+}
+.productTax{
+    font-size: 10px;
+    color: #F4AF9F;
+    margin-left: 5px;
+    margin-right:15px;
+}
+.productMount{
+    font-size: 12px;
+}
+.productMore{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    color: #EC6D4E;
+    border-radius: 25px;
+}
+.productMore:hover{
+    width: 246px;
+    height: 46px;
+    background-color: #EC6D4E;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.productsInside{
+    width: 840px;
+}
+.productsArea{
+    display: flex;
+    justify-content: center;
+}
+.shoppingColumn{
+    display: flex;
+}
+.moreProductsArea{
+    padding: 5px;
+}
+.moreProductsLink{
+    text-decoration: none;
+}
+.productsPic{
+    width: 200px;
+    border-radius: 5px;
+}
+.productsTxtArea{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.productsDetail{
+    display: flex;
+    align-items: baseline;
+    font-size: 10px;
+}
+.productsTxt{
+    color: #fff;
+    font-size: 13px;
+    font-weight:bold;
+}
+.productsPrice{
+    color: #fff;
+    font-size: 16px;
+}
+.productsTxtIcon{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.productsTax{
+    color: #F8C5B9;
+    font-size: 10px;
+    text-align: end;
+}
+.productMoreInside{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    text-decoration: none;
+}
+.productAll, .productAllIcon{
+    color: #fff;
+}
+.productAllIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+/* .board5 */
+.newsPage{
+    background-color: #EC6D4E;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsTag{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.newsArea{
+    width: 950px;
+    border-bottom: 1px solid #F2A18C;
+    margin: 20px 0;
+}
+.newsInfo{
+    border-top: 1px solid #F2A18C;
+    padding: 10px;
+}
+.newsDetail{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+}
+.newsDetail > p{
+    color: #fff;
+}
+.newsTitle{
+    width: 830px;
+    font-weight: bold;
+}
+.arrowIcon{
+    color: #fff;
+}
+.productMoreTxt{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: end;
+}
+.productIcon{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+/* board6 */
+.shopInfoPage{
+    width: 1200px;
+    height: 900px;
+    background-color: #EC6D4E;
+    display: flex;
+    align-items: center;
+}
+.shopInfoArea{
+    display: flex;
+    align-items: center;
+}
+.shopInfoPicArea{
+    order: 0;
+}
+.shopInfoPic{
+    width: 850px;
+    height: 750px;
+}
+.shopDetail{
+    border-radius: 5px;
+    width: 350px;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(-170px);
+    order: 1;
+}
+.shopTag{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color:  #EC6D4E;
+    margin-top: 40px;
+}
+.openingInfo{
+    padding: 30px;
+}
+.factory{
+    font-weight: bold;
+    font-size: 20px;
+    color:  #EC6D4E;
+}
+.grandOpening, .openingTime, .location{
+    font-size: 12px;
+}
+.openingTimeTitle, .locationTitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+.moreShopArea{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+.moreShop{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ec6d4e;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.moreShop:hover{
+    width: 246px;
+    height: 46px;
+    border: 2px solid #fff;
+    box-shadow: 10px 25px 25px rgba(236, 109, 78, 0.5);
+}
+/* board7 */
+.mediaPage{
+    width: 1200px;
+    height: 500px;
+    background-color: #EC6D4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediaArea{
+    width: 1000px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediaTag{
+    text-align: center;
+    color:#EC6D4E;
+}
+.brands{
+    width: 800px;
+}
+.brandsArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.brandPic{
+    width: 150px;
+}
+/* board8 */
+.magazinePage{
+    width: 1200px;
+    height: 700px;
+    background-color: #EC6D4E;
+}
+.magazineInside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.magazineTitle{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.magazineHealth{
+    display: flex;
+}
+.magazineCoffee,.magazineStomach,.magazineUndernutrition{
+    width: 350px;
+    height: 350px;
+    text-decoration: none;
+    background-color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.magazineStomach{
+    margin: 0 5px;        
+}
+.magazineTopic{
+    width: 300px;
+    height: 330px;
+}
+.magazinePic{
+    width: 300px;
+    height: 200px;
+    Object-fit: cover;
+}
+.magazineTxt{
+    width: 300px;
+    height: 50px;
+    font-size: 12px;
+    color: #000;
+}
+.magazineInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B9B9B9;
+}
+.magazineInfo i{
+    color: #B9B9B9;
+}
+.shareMagazineBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.shareMagazine{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    width: 246px;
+    height: 46px;
+    align-items: center;
+    background-color: #EC6D4E;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+.shareMagazine:hover{
+    background-color: #fff;
+    color: #EC6D4E;
+    box-shadow: 10px 25px 30px rgba(199, 83, 55, 0.4);
+}
+.shareMagazineIcon{
+    margin-left: 10px;
+}
+/* board9 */
+.sharePage{
+    width: 1200px;
+    background-color: #EC6D4E;        
+}
+.shareInside{
+    padding: 20px;
+}
+.factoryInfo a{
+    color: #fff;
+    text-decoration: none;  
+}
+.business:last-child::after{
+    content: "";
+}
+.business::after{
+    content: "|";
+    padding: 10px;
+    color: #F6B7A7;
+}
+.factoryIcon{
+    width: 80px;
+}
+.rights{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.rightArea{
+    display: flex;
+    align-items: center;
+}
+.right{
+    font-size: 10px;
+    color: #F6B7A7;
+    padding-left: 20px;
+}
+.shareApp{
+    display: flex;
+    align-items: center;
+}
+.twitterArea{
+    padding: 0 10px;
+}
+.OfficialAccount{
+    font-size: 10px;
+    color: #fff;
+}
